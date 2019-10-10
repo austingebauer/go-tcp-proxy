@@ -14,10 +14,6 @@ import (
 	"time"
 )
 
-const (
-	networkType = "tcp4"
-)
-
 var (
 	id                 = uuid.New().String()
 	inboundConnCounter = prometheus.NewCounterVec(
@@ -65,6 +61,10 @@ var (
 		[]string{"id"},
 	)
 	outboundConnTimeout = 10 * time.Second
+)
+
+const (
+	networkType = "tcp4"
 )
 
 func init() {
