@@ -1,4 +1,4 @@
-# go-tcp-metrics-proxy
+# go-tcp-proxy
 
 A simple TCP proxy that exposes network telemetry metrics via Prometheus.
 
