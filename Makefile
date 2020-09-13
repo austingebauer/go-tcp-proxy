@@ -3,7 +3,7 @@
 
 # Build constants
 BUILD_OUT_DIR = bin
-BINARY_FILE_NAME = mproxy
+BINARY_FILE_NAME = proxy
 MAIN_PROGRAM_FILE = main.go
 TEST_COVERAGE_PROFILE = coverage.out
 
